@@ -39,7 +39,7 @@ if PC:
     q = 137438691329
     psi = 22157790
     psiv = modinv(psi, q)
-    w = pow(psi, 2, q)
+    w = pow(psi, 2, q) # psi ^ 2 % q
     wv = modinv(w, q)
 
     g = 0x1fffffffffc80001  # original integer from SEAL

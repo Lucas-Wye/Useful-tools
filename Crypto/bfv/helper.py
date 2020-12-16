@@ -16,8 +16,6 @@ def modinv(a, m):
         return x % m
 
 # GCD of two integers
-
-
 def gcd(n1, n2):
     a = n1
     b = n2
@@ -26,15 +24,11 @@ def gcd(n1, n2):
     return a
 
 # Bit-Reverse integer
-
-
 def intReverse(a, n):
     b = ('{:0'+str(n)+'b}').format(a)
     return int(b[::-1], 2)
 
 # Bit-Reversed index
-
-
 def indexReverse(a, r):
     n = len(a)
     b = [0]*n
@@ -45,8 +39,6 @@ def indexReverse(a, r):
 
 # Reference Polynomial Multiplication
 # with f(x) = x^n + 1
-
-
 def RefPolMul(A, B, M):
     C = [0] * (2 * len(A))
     D = [0] * (len(A))
@@ -60,8 +52,6 @@ def RefPolMul(A, B, M):
 
 # Reference Polynomial Multiplication (w/ modulus)
 # with f(x) = x^n + 1
-
-
 def RefPolMulv2(A, B):
     C = [0] * (2 * len(A))
     D = [0] * (len(A))
@@ -74,8 +64,6 @@ def RefPolMulv2(A, B):
     return D
 
 # Check if input is m-th (could be n or 2n) primitive root of unity of q
-
-
 def isrootofunity(w, m, q):
     if pow(w, m, q) != 1:
         return False
