@@ -1,7 +1,9 @@
 #! /bin/sh
-# Author: Lucas
-# Update: 2020.08.09
-# Description: This is a script for checking the version of tensorflow and pytorch of All Linux Server's User
+###
+ # @Author: Lucas Wye
+ # @Date: 2020-08-09 09:33:51
+ # @Description: This is a script for checking the version of tensorflow and pytorch of All Linux Server's User
+### 
 
 for conda in `ls -d /home/*/anaconda3`; do
     py="$conda/bin/python -c"

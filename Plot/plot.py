@@ -1,11 +1,10 @@
 #coding=utf-8
-''' 
-  author: lustre
-  time: 2019-03-20
-  function: read csv file and plot data 
+'''
+Author: Lucas Wye
+Date: 2019-03-20 14:05:35
+Description: read csv file and plot data 
 '''
 
-# import
 import csv
 import sys
 import matplotlib.pyplot as plt

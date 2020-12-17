@@ -1,8 +1,8 @@
 /*
-  author: Lustre
-  update: 2019.05.21
-  function: encrytion and decryption with rc4
-*/
+ * @Author: Lucas Wye
+ * @Date: 2019-05-21 14:05:35
+ * @Description: encrytion and decryption with rc4
+ */
 
 #include <stdio.h>
 #include <string.h>

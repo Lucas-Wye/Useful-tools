@@ -1,8 +1,8 @@
 /*
-  author: lustre
-  time: 2019-03-24
-  function: this code is used to read the RGBA data from a binary file 
-*/
+ * @Author: Lucas Wye
+ * @Date: 2019-03-24 14:05:35
+ * @Description: this code is used to read the RGBA data from a binary file  
+ */
 
 #include<stdio.h>
 #include <stdlib.h>

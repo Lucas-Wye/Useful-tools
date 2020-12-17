@@ -1,4 +1,3 @@
-
 # Modular inverse of an integer
 def egcd(a, b):
     if a == 0:
@@ -77,3 +76,14 @@ def isrootofunity(w, m, q):
             else:
                 v = (v*w) % q
         return True
+
+# Fast modular exponentiation
+def quick_mod(a, b, m):
+    ans = 1
+    a = a % m
+    while b != 0:
+        if b & 1:
+            ans = (ans*a) % m
+        b >>= 1
+        a = (a*a) % m
+    return ans

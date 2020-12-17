@@ -1,8 +1,11 @@
 '''
-J. Wolkerstorfer, E. Oswald, and M. Lamberger, “An ASIC Implementation of the AES SBoxes,” 
-in Topics in Cryptology — CT-RSA 2002, Berlin, Heidelberg, 2002, pp. 67–78, doi: 10.1007/3-540-45760-7_6.
+Author: Lucas Wye
+Date: 2020-10-16 14:07:32
+Description: 
+    J. Wolkerstorfer, E. Oswald, and M. Lamberger, “An ASIC Implementation of the AES SBoxes,” 
+    in Topics in Cryptology — CT-RSA 2002, Berlin, Heidelberg, 2002, pp. 67–78, doi: 10.1007/3-540-45760-7_6.
 
-https://doi.org/10.1007/3-540-45760-7_6
+    https://doi.org/10.1007/3-540-45760-7_6
 '''
 
 def get_bit_val(byte, index):

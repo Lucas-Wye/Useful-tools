@@ -1,4 +1,8 @@
-# convolution and wrapped convolution
+'''
+Author: Lucas Wye
+Date: 2020-12-14 15:54:39
+Description: convolution and wrapped convolution
+'''
 
 n = 5
 

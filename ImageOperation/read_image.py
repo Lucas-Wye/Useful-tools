@@ -1,8 +1,8 @@
 #coding=utf-8
 '''
-  author: Lustre
-  time: 2019-04-29
-  function: this code is used to read an image and save RGB data to outfile
+Author: Lucas Wye
+Date: 2019-04-29 14:05:35
+Description: this code is used to read an image and save RGB data to outfile
 '''
 
 import sys
