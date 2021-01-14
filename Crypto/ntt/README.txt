@@ -1,0 +1,1 @@
+NTT written by myself.
