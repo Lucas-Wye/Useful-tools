@@ -1,3 +1,4 @@
+#coding=utf-8
 '''
 Author: Lucas Wye<lucas.zw.ye@outlook.com>
 Date: 2021-01-08 16:57:37
@@ -90,12 +91,12 @@ def my_Radix2_DIT_Iterative_NTT_NR(A,W,q):
                 index_1 = k*m +j
                 index_2 = k*m +j +int(m/2)
 
-                B[index_1],B[index_2] = DIT_CT_Butterfly(B[index_1],B[index_2],TW, q) 
+                B[index_1], B[index_2] = DIT_CT_Butterfly(B[index_1],B[index_2],TW, q) 
                 index[s-1].append(str(index_1)+' '+str(index_2)) 
 
     for i in range(len(index[0])):
         for j in range(len(index)):
-            print(index[len(index) - 1 - j][i],end="\t")
+            print(index[j][i],end="\t")
         print()
             
     return B
