@@ -9,8 +9,8 @@ for conda in `ls -d /home/*/anaconda3`; do
     py="$conda/bin/python -c"
     list="$conda/bin/conda list"
 
-    torch_version=`$py "import torch;print(torch.__version__)" 2>/dev/null`
-    tf_version=`$py "import tensorflow as tf;print(tf.__version__)" 2>/dev/null`
+    torch_version=`$py "import torch;print(torch.__version__);print(torch.cuda.is_available())" 2>/dev/null`
+    tf_version=`$py "import tensorflow as tf;print(tf.__version__);" 2>/dev/null`
 
     if [[ $torch_version != "" || $tf_version != "" ]];then
         echo $conda
