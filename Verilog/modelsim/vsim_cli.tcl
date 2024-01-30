@@ -1,0 +1,2 @@
+# run design
+run -all

@@ -45,19 +45,19 @@ format:
 	$(iSTYLE) *.v > /dev/null
 	rm *.orig
 
-com: guard-FILE 
+com: guard-FILE
 	$(VCS)
 
-lca: guard-FILE 
+lca: guard-FILE
 	$(VCS) -lca -simprofile
 
-sim: guard-FILE 
+sim: guard-FILE
 	$(SIM)
 
-simt: guard-FILE 
+simt: guard-FILE
 	$(SIM) -simprofile time
 
-wave: guard-FILE 
+wave: guard-FILE
 	dve -vpd $(OUTPUT).vpd &
 
 clean:

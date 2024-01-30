@@ -1,5 +1,5 @@
 import socket
- 
+
 def port_checker(ip_address_or_domain, port_number):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:

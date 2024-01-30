@@ -1,0 +1,6 @@
+*.dbg
+*.wlf
+transcript
+
+work/
+

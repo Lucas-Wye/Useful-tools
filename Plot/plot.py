@@ -2,7 +2,7 @@
 '''
 Author: Lucas Wye
 Date: 2019-03-20 14:05:35
-Description: read csv file and plot data 
+Description: read csv file and plot data
 '''
 
 import csv
